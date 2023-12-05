@@ -44,3 +44,5 @@ RUN bash /imagegeneration/installers/${TYPE}.sh
 # LABEL org.opencontainers.image.revision="${BUILD_REF}"
 
 USER ${RUNNER}
+
+ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/hostedtoolcache
