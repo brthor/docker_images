@@ -45,4 +45,4 @@ RUN bash /imagegeneration/installers/${TYPE}.sh
 
 USER ${RUNNER}
 
-ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/hostedtoolcache/16.20.2/x64/bin
+ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/hostedtoolcache/node/16.20.2/x64/bin
